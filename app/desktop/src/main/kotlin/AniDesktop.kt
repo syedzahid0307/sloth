@@ -464,7 +464,7 @@ object AniDesktop {
             AniSystemTray(
                 state = trayState,
                 icon = appIcon,
-                tooltip = "Ani",
+                tooltip = "Sloth",
                 onExit = exitApplicationSavingWindowState,
             )
 
@@ -477,7 +477,7 @@ object AniDesktop {
                     )
                 },
                 state = windowState,
-                title = "Ani",
+                title = "Sloth",
                 icon = appIcon,
             ) {
                 // In dev mode this enables hot reload,
